@@ -14,7 +14,7 @@ h1 span {
 }
 
 body {
-    background: url(../images/bg-pattern-desktop.svg);
+    background: url(./images/bg-pattern-desktop.svg);
     background-size: cover;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .errorIcon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     fill: #999;
 }
