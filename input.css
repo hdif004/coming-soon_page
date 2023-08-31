@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1 span {
+    font-weight: 300;
+}
+
+body {
+    background: url(../images/bg-pattern-desktop.svg);
+    background-size: cover;
+}
+
+::placeholder {
+    color: #ce9797 !important;
+    font-weight: 600 !important;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none; /* Masquer le message par défaut */
+}
+
+
+
+.icon-container {
+    display: none;
+}
+
+.errorIcon {
+    width: 20px;
+    height: 20px;
+    fill: #999;
+}
